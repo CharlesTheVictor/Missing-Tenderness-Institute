@@ -1,0 +1,76 @@
+* {
+margin: 0;
+padding: 0;
+overflow: hidden;
+ }
+
+html,body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+.BADBAU {
+  width: -webkit-fill-available;
+  background-color: black;
+  position:absolute;
+}
+
+.BADBAUS {
+  width: -webkit-fill-available;
+  background-color: black;
+  position:relative;
+  margin: 0;
+}
+
+.TEXT1 {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+}
+
+.TEXT2 {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 1;
+}
+.TEXT3 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.POSTER {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width:500px;
+}
+
+.GIF{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left:0;
+  height: 400px;
+  z-index: 1;
+}
+
+.GIF2{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 400px;
+  z-index: 1;
+}
